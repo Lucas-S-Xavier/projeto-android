@@ -45,7 +45,7 @@ header {
 	background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 	min-height: 150px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 header > h1 {
@@ -107,7 +107,7 @@ main  h1 {
 
 main  h2 {
 	font-family: var(--font-idroid);
-	background-image: linear-gradient(to right, var(--cor3), transparent);
+	background-image: linear-gradient(to right, var(--cor2), transparent);
 	padding-left: 10px;
 	color: var(--cor5);
 }
@@ -145,7 +145,7 @@ main img {
 }
 
 main img.pequena {
-	width: 50%;
+	max-width: 350px;
 	display: block;
 	margin: auto;
 }
@@ -177,7 +177,7 @@ aside ul {
 	list-style-position: inside;
 	padding: 15px;
 	columns: 2;
-	list-style-type: '2714';
+	list-style-type: '\2714\00A0\00A0';
 }
 
 
